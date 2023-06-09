@@ -1,0 +1,32 @@
+// Tipo - Inicio de sesión
+export const USER_LOGIN = "USER_LOGIN";
+export const USER_LOGIN_FAIL = "USER_LOGIN_FAIL";
+
+// Tipo - Cargando usuario
+export const LOAD_USER_SUCCESS = "LOAD_USER_SUCCESS";
+export const LOAD_USER_FAIL = "LOAD_USER_FAIL";
+
+// Tipo - Registro de usuario
+export const USER_SIGNUP_SUCCESS = "USER_SIGNUP_SUCCESS";
+export const USER_SIGNUP_FAIL = "USER_SIGNUP_FAIL";
+
+// Tipo - Activación de cuenta
+export const USER_ACTIVATE_ACCOUNT_SUCCESS = "USER_ACTIVATE_ACCOUNT_SUCCESS";
+export const USER_ACTIVATE_ACCOUNT_FAIL = "USER_ACTIVATE_ACCOUNT_FAIL";
+
+// Tipo - Contraseñas
+export const USER_RESET_PASSWORD_SUCCESS = "USER_RESET_PASSWORD_SUCCESS";
+export const USER_RESET_PASSWORD_FAIL = "USER_RESET_PASSWORD_FAIL";
+export const USER_RESET_PASSWORD_CONFIRM_SUCCESS = "USER_RESET_PASSWORD_CONFIRM_SUCCESS";
+export const USER_RESET_PASSWORD_CONFIRM_FAIL = "USER_RESET_PASSWORD_CONFIRM_FAIL";
+
+// Tipo - Google
+export const GOOGLE_AUTH_SUCCESS = 'GOOGLE_AUTH_SUCCESS';
+export const GOOGLE_AUTH_FAIL = 'GOOGLE_AUTH_FAIL';
+
+// Tipo - Autenticación de usuario
+export const AUTHENTICATED_SUCCESS = "AUTHENTICATED_SUCCESS";
+export const AUTHENTICATED_FAIL = "AUTHENTICATED_FAIL";
+
+// Tipo - Logout
+export const LOGOUT = "LOGOUT";
